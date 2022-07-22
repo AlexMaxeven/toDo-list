@@ -1,0 +1,161 @@
+// reset -
+@import 'reset';
+// global -
+@import 'global';
+// fonts - 
+@import 'fonts';
+// // vars - 
+// @import 'vars';
+
+.main{
+    background-color: darkcyan;
+}
+.todo__title{
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    span {
+        color: burlywood;
+    }
+}
+.todo__text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: burlywood;
+}
+.list-group__item.list-group__item-main{
+    box-shadow: 1px 1px 5px 1px #000;
+    background-color: burlywood;
+    margin: 0 auto;
+    max-width: 800px;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    img {
+        display: block;
+        margin: 10px auto;
+        max-width: 10%;
+    }
+
+}
+.form {
+    margin: 0 auto;
+    background-color: burlywood;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #000;
+
+    &__title{
+        padding: 15px 0px;
+        font-size: 24px;
+        font-weight: 500;
+        color: darkcyan;
+    }
+    &__control{
+        box-shadow: 1px 1px 5px 1px #000;
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    &__text{
+        color: darkcyan;
+        margin-bottom: 15px;
+    }
+    &__btn{
+        box-shadow: 1px 1px 5px 1px #000;
+        color: burlywood;
+        background-color: darkcyan;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+.none{
+    display: none !important;
+}
+
+.btn-action img{
+    pointer-events: none;
+}
+
+.button.btn-action.active{
+    position: relative;
+    font-size: 0px;
+    margin-right: 20px;
+}
+.button.btn-action.pass{
+    position: relative;
+    font-size: 0px;
+    margin-right: 15px;
+}
+.button.btn-action.active::after{
+    content: '';
+    position: absolute;
+    background-image: url(../img/yes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    top: -15px;
+    bottom: 0;
+    left: -37px;
+}
+.button.btn-action.pass::after{
+    content: '';
+    position: absolute;
+    background-image: url(../img/none.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    top: -15px;
+    bottom: 0;
+    left: -17px;
+}
+
+.list-group{
+    &__item{
+        box-shadow: 1px 1px 5px 1px #000;
+        min-height: 50px;
+        font-size: 22px;
+        margin: 0 auto 10px;
+        padding: 10px 10px 10px 20px;
+        background-color: rgba(85, 129, 129, 0.5);
+        border-radius: 10px;
+        max-width:800px;
+        display: flex;
+        color: #fff;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__text{
+        color: darkcyan;
+        font-size: 20px;
+        opacity: 0.9;
+        font-weight: 500;
+    }
+}
+.task-item__buttons{
+    display: flex;
+    align-items: center;
+    button{
+        margin-right: 5px;
+        background-color: burlywood;
+    }
+}
+.task__title{
+    max-width: 280px;
+}
+.task__title--done {
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+// - slick scss
+// @import "./libs/slick.scss";
