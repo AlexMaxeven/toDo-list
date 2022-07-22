@@ -119,7 +119,7 @@ body {
 }
 
 .main {
-  background: darkcyan;
+  background: rgb(228, 228, 228);
 }
 
 .todo__title {
@@ -127,21 +127,22 @@ body {
   margin: 10px;
   font-size: 28px;
   font-weight: 600;
+  color: rgba(58, 53, 53, 0.863);
 }
 
 .todo__title span {
-  color: burlywood;
+  color: #000;
 }
 
 .todo__text {
   text-align: center;
   margin-bottom: 20px;
   font-size: 22px;
-  color: burlywood;
+  color: rgba(58, 53, 53, 0.863);
 }
 
 .list-group__item.list-group__item-main {
-  background: burlywood;
+  background: rgb(255, 255, 255);
   -webkit-box-shadow: 1px 1px 5px 1px #000;
   box-shadow: 1px 1px 5px 1px #000;
   margin: 0 auto;
@@ -150,16 +151,17 @@ body {
   border-radius: 15px;
   text-align: center;
   margin-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .list-group__item.list-group__item-main img {
   display: block;
   margin: 10px auto;
-  max-width: 10%;
+  max-width: 15%;
 }
 
 .form {
-  background: burlywood;
+  background: rgb(255, 255, 255);
   margin: 0 auto;
   max-width: 800px;
   text-align: center;
@@ -172,7 +174,7 @@ body {
   padding: 15px 0px;
   font-size: 24px;
   font-weight: 500;
-  color: darkcyan;
+  color: rgba(58, 53, 53, 0.863);
 }
 
 .form__control {
@@ -184,15 +186,15 @@ body {
 }
 
 .form__text {
-  color: darkcyan;
+  color: rgba(58, 53, 53, 0.863);
   margin-bottom: 15px;
 }
 
 .form__btn {
-  background: darkcyan;
+  background: rgba(58, 53, 53, 0.863);
   -webkit-box-shadow: 1px 1px 5px 1px #000;
   box-shadow: 1px 1px 5px 1px #000;
-  color: burlywood;
+  color: rgb(228, 214, 214);
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -243,7 +245,7 @@ body {
 }
 
 .list-group__item {
-  background: rgba(85, 129, 129, 0.5);
+  background: rgb(255, 255, 255);
   -webkit-box-shadow: 1px 1px 5px 1px #000;
   box-shadow: 1px 1px 5px 1px #000;
   min-height: 50px;
@@ -255,7 +257,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #fff;
+  color: rgba(58, 53, 53, 0.863);
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -265,7 +267,7 @@ body {
 }
 
 .list-group__text {
-  color: darkcyan;
+  color: rgba(58, 53, 53, 0.863);
   font-size: 20px;
   opacity: 0.9;
   font-weight: 500;
@@ -281,7 +283,6 @@ body {
 }
 
 .task-item__buttons button {
-  background: burlywood;
   margin-right: 5px;
 }
 
