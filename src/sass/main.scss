@@ -8,42 +8,44 @@
 // @import 'vars';
 
 .main{
-    background-color: darkcyan;
+    background-color: rgb(228, 228, 228);
 }
 .todo__title{
     text-align: center;
     margin: 10px;
     font-size: 28px;
     font-weight: 600;
+    color: rgba(58, 53, 53, 0.863);
     span {
-        color: burlywood;
+        color:#000;
     }
 }
 .todo__text {
     text-align: center;
     margin-bottom: 20px;
     font-size: 22px;
-    color: burlywood;
+    color: rgba(58, 53, 53, 0.863);
 }
 .list-group__item.list-group__item-main{
     box-shadow: 1px 1px 5px 1px #000;
-    background-color: burlywood;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
     max-width: 800px;
     display: block;
     border-radius: 15px;
     text-align: center;
     margin-bottom: 20px;
+    padding-bottom: 30px;
     img {
         display: block;
         margin: 10px auto;
-        max-width: 10%;
+        max-width: 15%;
     }
 
 }
 .form {
     margin: 0 auto;
-    background-color: burlywood;
+    background-color: rgb(255, 255, 255);
     max-width: 800px;
     text-align: center;
     border-radius: 10px;
@@ -53,7 +55,7 @@
         padding: 15px 0px;
         font-size: 24px;
         font-weight: 500;
-        color: darkcyan;
+        color:  rgba(58, 53, 53, 0.863);
     }
     &__control{
         box-shadow: 1px 1px 5px 1px #000;
@@ -62,13 +64,13 @@
         border-radius: 10px;
     }
     &__text{
-        color: darkcyan;
+        color:  rgba(58, 53, 53, 0.863);
         margin-bottom: 15px;
     }
     &__btn{
         box-shadow: 1px 1px 5px 1px #000;
-        color: burlywood;
-        background-color: darkcyan;
+        color: rgb(228, 214, 214);
+        background-color:  rgba(58, 53, 53, 0.863);
         padding: 10px;
         border-radius: 10px;
         margin-bottom: 15px;
@@ -127,16 +129,16 @@
         font-size: 22px;
         margin: 0 auto 10px;
         padding: 10px 10px 10px 20px;
-        background-color: rgba(85, 129, 129, 0.5);
+        background-color:rgb(255, 255, 255);
         border-radius: 10px;
         max-width:800px;
         display: flex;
-        color: #fff;
+        color:  rgba(58, 53, 53, 0.863);
         align-items: center;
         justify-content: space-between;
     }
     &__text{
-        color: darkcyan;
+        color:  rgba(58, 53, 53, 0.863);
         font-size: 20px;
         opacity: 0.9;
         font-weight: 500;
@@ -147,7 +149,7 @@
     align-items: center;
     button{
         margin-right: 5px;
-        background-color: burlywood;
+        // background-color: rgb(228, 214, 214);
     }
 }
 .task__title{
@@ -155,7 +157,7 @@
 }
 .task__title--done {
     opacity: 0.6;
-    text-decoration: line-through;
+    text-decoration: line-through;    
 }
 // - slick scss
 // @import "./libs/slick.scss";
